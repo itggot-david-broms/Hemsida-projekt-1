@@ -1,0 +1,32 @@
+@media screen 
+and (max-device-width: 360px) {
+     
+    body {
+        background-color: black;
+    }
+
+    .container {
+        width: 100vw;
+        height: 640px;
+        background-color: lightgrey;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 5px;
+    }
+
+    header {
+        grid-column: span 6;
+        grid-row: span 1;
+        background-color: grey;
+    }
+
+    .boka {
+        grid-column: 2/6;
+        grid-row: 3;
+        background-color: white;
+        font-size: 20px;
+        
+    }
+
+}
