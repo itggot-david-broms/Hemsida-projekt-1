@@ -2,15 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/grid.css">
-    <title>Document</title>
+    <title>Jag vill dö</title>
 </head>
 <body>
     <div class="container">
-        <header></header>
-        <button class="boka">jag vill dö</button>
+        <div class="menu">
+            <i class="material-icons" onclick="toggleMenu()">close</i>
+            <ul>
+                <a href="https://www.reddit.com/r/random/"><li>Om oss</li></a>
+                <a href="https://www.reddit.com/r/random/"><li>Hjälp</li></a>
+            </ul>
+        </div>
+        <header>
+            <p>haha yes</p>
+           <i class="material-icons" onclick="toggleMenu()">menu</i>
+        </header>
+        <button class="boka">Boka Resa</button> 
+        <button class="log">Logga in</button>
+        <button class="reg">Skapa konto</button>
     </div>
-    
+    <script src="js/menu.js"></script>
 </body>
 </html>
